@@ -73,7 +73,7 @@ var PicFightCoinParams = Params{
 	AcceptNonStdTxs: false,
 
 	// Address encoding magics
-	NetworkAddressPrefix: "D",
+	NetworkAddressPrefix: "J",
 	PubKeyAddrID:         [2]byte{0x13, 0x86}, // starts with Dk
 	PubKeyHashAddrID:     [2]byte{0x07, 0x3f}, // starts with Ds
 	PKHEdwardsAddrID:     [2]byte{0x07, 0x1f}, // starts with De
